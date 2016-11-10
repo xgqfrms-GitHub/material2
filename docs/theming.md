@@ -1,7 +1,7 @@
-# Theming your Angular Material app
+# 定制你 Angular 2 Material 2应用程序的主题
 
 
-### What is a theme?
+### 什么是主题？
 A **theme** is the set of colors that will be applied to the Angular Material components. The
 library's approach to theming is based on the guidance from the [Material Design spec][1].
 
@@ -18,7 +18,7 @@ app doesn't have to spend cycles generating theme styles on startup.
 
 [1]: https://material.google.com/style/color.html#color-color-palette
 
-### Using a pre-built theme
+### 使用一个预构建的主题
 Angular Material comes prepackaged with several pre-built theme css files. These theme files also
 include all of the styles for core (styles common to all components), so you only have to include a
 single css file for Angular Material in your app.
@@ -40,7 +40,7 @@ The actual path will depend on your server setup.
 
 You can also concatenate the file with the rest of your application's css.
 
-### Defining a custom theme
+### 定义一个自定义的主题
 When you want more customization than a pre-built theme offers, you can create your own theme file.
 
 A theme file is a simple Sass file that defines your palettes and passes them to mixins that output
@@ -86,7 +86,7 @@ and then include the output file in your application.
 
 The theme file can be concatenated and minified with the rest of the application's css.
 
-#### Multiple themes
+#### 多个主题
 You can extend the example above to define a second (or third or fourth) theme that is gated by
 some selector. For example, we could append the following to the example above to define a
 secondary dark theme:
@@ -105,9 +105,9 @@ secondary dark theme:
 With this, any element inside of a parent with the `unicorn-dark-theme` class will use this
 dark theme.
 
-### Theming your own components
+### 定制你自己的组件
 For more details about theming your own components, see [theming-your-components.md](https://github.com/angular/material2/blob/master/docs/theming-your-components.md)
 
-### Future work
+### 未来的工作
 * Once CSS variables (custom properties) are available in all the browsers we support,
   we will explore how to take advantage of them to make theming even simpler.
