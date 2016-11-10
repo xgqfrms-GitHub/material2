@@ -2,8 +2,12 @@
 
 
 ### 什么是主题？
-A **theme** is the set of colors that will be applied to the Angular Material components. The
-library's approach to theming is based on the guidance from the [Material Design spec][1].
+
+一个**主题** 是一组将应用于Angular Material组件的颜色。  
+库对主题的方法是基于[材料设计规范][1]的指导。
+
+材料设计的颜色灵感来自大胆的色调与静音环境，深阴影和明亮的亮点并列。
+https://material.google.com/style/color.html
 
 In Angular Material, a theme is created by composing multiple palettes. In particular,
 a theme consists of:
