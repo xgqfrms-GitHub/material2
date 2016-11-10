@@ -41,11 +41,11 @@ import { MaterialModule } from '@angular/material';
 export class PizzaPartyAppModule { }
 ```
 
-## 包括核心和主题样式 :
-This is **required** to apply all of the core and theme styles to your application. You can either
-use a pre-built theme, or define your own custom theme.
+## 包括核心和主题样式 :  
+这是**必需**，以应用所有的核心和主题样式到您的应用程序。  
+要么你可以使用一个预构建的主题，要么定义自己的自定义主题。
 
-:trident:  See the [theming guide](docs/theming.md) for instructions.
+:trident:  请参阅[主题指南](docs/theming.md) 以获取说明.
 
 ### 其他设置 `md-slide-toggle` 和 `md-slider`:
 The slide-toggle and slider components have a dependency on [HammerJS](http://hammerjs.github.io/).
