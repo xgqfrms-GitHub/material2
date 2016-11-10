@@ -1,12 +1,12 @@
-Get started with Angular Material 2 using the Angular CLI.
+使用Angular CLI开始使用Angular Material 2。
 
-## Install the CLI
+## 安装 CLI
  
  ```bash
  npm install -g angular-cli
  ```
  
-## Create a new project
+## 创建一个新项目
  
  ```bash
  ng new my-project
@@ -14,13 +14,19 @@ Get started with Angular Material 2 using the Angular CLI.
 
 The new command creates a project with a build system for your Angular app.
 
-## Install Angular Material components 
+## 安装 Angular Material 组件
 
 ```bash
 npm install --save @angular/material
+
+# [Build a Material Design App with Angular 2](https://www.youtube.com/watch?v=hHhwg-VJxw8&gl=KR)
+
+npm i -S @angular2-material/core @angular2-material/button @angular2-material/core @angular2-material/card
+
+npm i -S @angular2-material{core,button,card,checkbox,icon,input,list,toolbar}@2.1.1
 ```
 
-## Import the Angular Material NgModule
+## 导入 Angular Material NgModule
   
 **src/app/app.module.ts**
 ```ts
@@ -33,20 +39,20 @@ import { MaterialModule } from '@angular/material';
 export class PizzaPartyAppModule { }
 ```
 
-## Include the core and theme styles:
+## 包括核心和主题样式 :
 This is **required** to apply all of the core and theme styles to your application. You can either
 use a pre-built theme, or define your own custom theme.
 
 :trident:  See the [theming guide](docs/theming.md) for instructions.
 
-### Additional setup for `md-slide-toggle` and `md-slider`:
+### 其他设置 `md-slide-toggle` 和 `md-slider`:
 The slide-toggle and slider components have a dependency on [HammerJS](http://hammerjs.github.io/).
 
 Add HammerJS to your application via [npm](https://www.npmjs.com/package/hammerjs), a CDN 
 (such as the [Google CDN](https://developers.google.com/speed/libraries/#hammerjs)), or served 
 directly from your app.
 
-### [Optional] Using Material Design icons with `md-icon`:
+### [可选的] 使用 Material Design 的图标 `md-icon`:
 
 - If you want to use Material Design icons in addition to Angular Material components, 
 load the Material Design font in your `index.html`.  
@@ -57,6 +63,6 @@ load the Material Design font in your `index.html`.
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ```
 
-## Sample Angular Material 2 projects
+## Angular Material 2 项目样品 
 - [Material 2 Sample App](https://github.com/jelbourn/material2-app)
 - [Angular Connect 2016 Demo](https://github.com/kara/leashed-in)
