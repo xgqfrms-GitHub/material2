@@ -23,7 +23,9 @@ npm install --save @angular/material
 
 npm i -S @angular2-material/core @angular2-material/button @angular2-material/core @angular2-material/card
 
-npm i -S @angular2-material{core,button,card,checkbox,icon,input,list,toolbar}@2.1.1
+npm i -S @angular2-material{core,button,card,checkbox,icon,input,list,toolbar}@2.0.0-alpha.10
+
+# ??? Error
 ```
 
 ## 导入 Angular Material NgModule
