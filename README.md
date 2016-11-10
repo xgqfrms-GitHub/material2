@@ -7,12 +7,12 @@
 
 #### 快速链接
 [Google group](https://groups.google.com/forum/#!forum/angular-material2),
-[Contributing](https://github.com/angular/material2/blob/master/CONTRIBUTING.md),
+[Contributing](./CONTRIBUTING.md),
 [Plunker Template](http://plnkr.co/edit/o077B6uEiiIgkC0S06dd?p=preview)
 
 ### 入门
 
-请参阅我们的[入门指南](https://github.com/angular/material2/blob/master/GETTING_STARTED.md),  
+请参阅我们的[入门指南](./GETTING_STARTED.md),  
 如果你正在使用Angular Material 2构建第一个项目。
 
 ### 项目状态
@@ -22,7 +22,7 @@ During alpha, breaking API and behavior changes will be occurring regularly.
 Check out our [directory of design documents](https://github.com/angular/material2/wiki/Design-doc-directory) 
 for more insight into our process.
 
-If you'd like to contribute, you must follow our [contributing guidelines](https://github.com/angular/material2/blob/master/CONTRIBUTING.md). 
+If you'd like to contribute, you must follow our [contributing guidelines](./CONTRIBUTING.md). 
 You can look through the issues (which should be up-to-date on who is working on which features 
 and which pieces are blocked) and make a comment. 
 Also see our [`Good for community contribution`](https://github.com/angular/material2/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+for+community+contribution%22) 
@@ -82,28 +82,29 @@ High level items planned for November 2016:
 | data-table       |                         Not started |           -  |   [#581][0581] |
 | stepper          |                         Not started |           -  |   [#508][0508] |
 
- [1]: https://github.com/angular/material2/blob/master/src/lib/button/README.md
- [2]: https://github.com/angular/material2/blob/master/src/lib/card/README.md
- [3]: https://github.com/angular/material2/blob/master/src/lib/checkbox/README.md
- [4]: https://github.com/angular/material2/blob/master/src/lib/radio/README.md
- [5]: https://github.com/angular/material2/blob/master/src/lib/input/README.md
- [6]: https://github.com/angular/material2/blob/master/src/lib/sidenav/README.md
- [7]: https://github.com/angular/material2/blob/master/src/lib/toolbar/README.md
- [8]: https://github.com/angular/material2/blob/master/src/lib/list/README.md
- [9]: https://github.com/angular/material2/blob/master/src/lib/grid-list/README.md
-[10]: https://github.com/angular/material2/blob/master/src/lib/icon/README.md
-[11]: https://github.com/angular/material2/blob/master/src/lib/progress-circle/README.md
-[12]: https://github.com/angular/material2/blob/master/src/lib/progress-bar/README.md
-[13]: https://github.com/angular/material2/blob/master/src/lib/tabs/README.md
-[14]: https://github.com/angular/material2/blob/master/src/lib/slide-toggle/README.md
-[15]: https://github.com/angular/material2/blob/master/src/lib/button-toggle/README.md
-[16]: https://github.com/angular/material2/blob/master/src/lib/slider/README.md
-[17]: https://github.com/angular/material2/blob/master/src/lib/menu/README.md
-[18]: https://github.com/angular/material2/blob/master/src/lib/tooltip/README.md
-[19]: https://github.com/angular/material2/blob/master/src/lib/core/ripple/README.md
-[20]: https://github.com/angular/material2/blob/master/docs/theming.md
-[21]: https://github.com/angular/material2/blob/master/src/lib/snack-bar/README.md
-[22]: https://github.com/angular/material2/blob/master/src/lib/dialog/README.md
+ [1]: ./src/lib/button/README.md
+ [2]: ./src/lib/card/README.md
+ [3]: ./src/lib/checkbox/README.md
+ [4]: ./src/lib/radio/README.md
+ [5]: ./src/lib/input/README.md
+ [6]: ./src/lib/sidenav/README.md
+ [7]: ./src/lib/toolbar/README.md
+ [8]: ./src/lib/list/README.md
+ [9]: ./src/lib/grid-list/README.md
+[10]: ./src/lib/icon/README.md
+[11]: ./src/lib/progress-circle/README.md
+[12]: ./src/lib/progress-bar/README.md
+[13]: ./src/lib/tabs/README.md
+[14]: ./src/lib/slide-toggle/README.md
+[15]: ./src/lib/button-toggle/README.md
+[16]: ./src/lib/slider/README.md
+[17]: ./src/lib/menu/README.md
+[18]: ./src/lib/tooltip/README.md
+[19]: ./src/lib/core/ripple/README.md
+[20]: ./docs/theming.md
+[21]: ./src/lib/snack-bar/README.md
+[22]: ./src/lib/dialog/README.md
+
 
 [0107]: https://github.com/angular/material2/issues/107
 [0119]: https://github.com/angular/material2/issues/119
