@@ -12,8 +12,8 @@
 
 ### 入门
 
-See our [Getting Started Guide](https://github.com/angular/material2/blob/master/GETTING_STARTED.md)
-if you're building your first project with Angular Material 2.
+请参阅我们的[入门指南](https://github.com/angular/material2/blob/master/GETTING_STARTED.md),  
+如果你正在使用Angular Material 2构建第一个项目。
 
 ### 项目状态
 Angular Material 2 is currently in alpha and under active development. 
