@@ -7,18 +7,17 @@
 库对主题的方法是基于[材料设计规范][1]的指导。
 
 材料设计的颜色灵感来自大胆的色调与静音环境，深阴影和明亮的亮点并列。
-https://material.google.com/style/color.html
 
-In Angular Material, a theme is created by composing multiple palettes. In particular,
-a theme consists of:
+在Angular Material中，通过组合多个调色板创建一个主题。  
+  尤其是，一个主题包括：  
 * A primary palette: colors most widely used across all screens and components.
 * An accent palette: colors used for the floating action button and interactive elements.
 * A warn palette: colors used to convey error state.
 * A foreground palette: colors for text and icons.
 * A background palette: colors used for element backgrounds.
 
-In Angular Material 2, all theme styles are generated _statically_ at build-time so that your
-app doesn't have to spend cycles generating theme styles on startup.
+在Angular Material 2中, 所有主题样式都是在构建时生成_statically_，以便你的应用程序不必在启动时花费周期生成主题样式。
+
 
 [1]: https://material.google.com/style/color.html#color-color-palette
 
@@ -27,22 +26,22 @@ Angular Material comes prepackaged with several pre-built theme css files. These
 include all of the styles for core (styles common to all components), so you only have to include a
 single css file for Angular Material in your app.
 
-You can include a theme file directly into your application from
+你可以直接将主题文件包含到你的应用程序中,从  
+
 `@angular/material/core/theming/prebuilt`
 
-If you're using Angular CLI, this is as simple as including one line
-in your `style.css`  file:
+如果你在使用 Angular CLI, 这就像在你的`style.css`文件中,包含一行一样简单 ：  
 ```css
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
 ```
 
-Alternatively, you can just reference the file directly. This would look something like
+或者，你可以直接引用文件。 这看起来会像  
 ```html
 <link href="node_modules/@angular/material/core/theming/prebuilt/indigo-pink.css" rel="stylesheet">
 ```
-The actual path will depend on your server setup.
+实际路径将取决于您的服务器设置。
 
-You can also concatenate the file with the rest of your application's css.
+你还可以将文件与你的应用程序的的其余部分css文件连接。 
 
 ### 定义一个自定义的主题
 When you want more customization than a pre-built theme offers, you can create your own theme file.
