@@ -3,19 +3,19 @@
 [![Build Status](https://travis-ci.org/angular/material2.svg?branch=master)](https://travis-ci.org/angular/material2)
 [![Gitter](https://badges.gitter.im/angular/material2.svg)](https://gitter.im/angular/material2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This is the home for the Angular team's Material Design components built on top of Angular 2.
+这是Angular团队在Angular 2之上构建的Material Design组件的家。
 
-#### Quick links
+#### 快速链接
 [Google group](https://groups.google.com/forum/#!forum/angular-material2),
 [Contributing](https://github.com/angular/material2/blob/master/CONTRIBUTING.md),
 [Plunker Template](http://plnkr.co/edit/o077B6uEiiIgkC0S06dd?p=preview)
 
-### Getting started 
+### 入门
 
 See our [Getting Started Guide](https://github.com/angular/material2/blob/master/GETTING_STARTED.md)
 if you're building your first project with Angular Material 2.
 
-### Project status
+### 项目状态
 Angular Material 2 is currently in alpha and under active development. 
 During alpha, breaking API and behavior changes will be occurring regularly.
 
@@ -39,7 +39,7 @@ High level items planned for November 2016:
 * Expanding e2e test coverage
 
 
-#### Feature status:
+#### 特征状态：
 
 | Feature          | Status                              | Docs         | Issue          |
 |------------------|-------------------------------------|--------------|----------------|
@@ -127,12 +127,11 @@ High level items planned for November 2016:
 "Available" means that the components or feature is published and available for use, but may still
 be missing some behaviors or polish.
 
-## The goal of Angular Material
-Our goal is to build a set of high-quality UI components built with Angular 2 and TypeScript, 
-following the Material Design spec. These 
-components will serve as an example of how to write Angular code following best practices.
+## Angular Material 目标
+我们的目标是使用Angular 2和TypeScript构建一组高质量的UI组件，遵循Material Design规范。  
+这些组件将作为如何按照最佳实践编写Angular代码的示例。
 
-### What do we mean by "high-quality"?
+### 我们"高质量"的意思是什么?
 * Internationalized and accessible so that all users can use them.
 * Straightforward APIs that don't confuse developers.
 * Behave as expected across a wide variety of use-cases without bugs.
@@ -141,7 +140,7 @@ components will serve as an example of how to write Angular code following best 
 * Performance cost is minimized.
 * Code is clean and well-documented to serve as an example for Angular devs.
 
-## Browser and screen reader support
+## 浏览器和屏幕阅读器支持
 Angular Material supports the most recent two versions of all major browsers: 
 Chrome (including Android), Firefox, Safari (including iOS), and IE11 / Edge
 
